@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Element Not Interactable",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*ElementNotInteractableException.*"
+  },
+  {
+    "name": "Element Not Found",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*NoSuchElementException.*"
+  },
+  {
+    "name": "Stale Element Reference",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*StaleElementReferenceException.*"
+  },
+  {
+    "name": "Click Intercepted",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*ElementClickInterceptedException.*"
+  },
+  {
+    "name": "WebDriver Internal Error",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*WebDriverException.*"
+  },
+  {
+    "name": "Unhandled Runtime Exceptio

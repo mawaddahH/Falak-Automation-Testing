@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="85" passed="84" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-25T06:52:09 AST" name="MySuite" finished-at="2025-08-25T07:46:50 AST" duration-ms="3280855">
+    <groups>
+    </groups>
+    <test started-at="2025-08-25T06:52:09 AST" name="Setup" finished-at="2025-08-25T06:52:09 AST" duration-ms="14">
+    </test> <!-- Setup -->
+    <test started-at="2025-08-25T06:52:09 AST" name="MainTests" finished-at="2025-08-25T07:46:50 AST" duration-ms="3280766">
+      <class name="com.falak.qa.config.EnvironmentSetup">
+        <test-method is-config="true" signature="setupAllureMetadata()[pri:0, instance:com.falak.qa.config.EnvironmentSetup@60db1c0e]" started-at="2025-08-25T06:52:09 AST" name="setupAllureMetadata" finished-at="2025-08-25T06:52:09 AST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAllureMetadata -->
+      </class> <!-- com.falak.qa.config.EnvironmentSetup -->
+      <class name="com.falak.qa.tests.HomePageTC">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:09 AST" name="setUp" finished-at="2025-08-25T06:52:20 AST" duration-ms="10902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC01_testHomeButtonRedirect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC01_testHomeButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:20 AST" name="TC01_testHomeButtonRedirect" description="TC-01 | Verify &#039;الرئيسية&#039; button redirects correctly" finished-at="2025-08-25T06:52:20 AST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_testHomeButtonRedirect -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:20 AST" name="tearDown" finished-at="2025-08-25T06:52:21 AST" duration-ms="1345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_testHomeButtonRedirect status=SUCCESS method=HomePageTC.TC01_testHomeButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:21 AST" name="setUp" finished-at="2025-08-25T06:52:27 AST" duration-ms="6108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC02_testAboutFalakButtonRedirect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC02_testAboutFalakButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:27 AST" name="TC02_testAboutFalakButtonRedirect" description="TC-02 | Verify &#039;عن فلك&#039; button redirects correctly" finished-at="2025-08-25T06:52:28 AST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_testAboutFalakButtonRedirect -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:28 AST" name="tearDown" finished-at="2025-08-25T06:52:29 AST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_testAboutFalakButtonRedirect status=SUCCESS method=HomePageTC.TC02_testAboutFalakButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:29 AST" name="setUp" finished-at="2025-08-25T06:52:34 AST" duration-ms="4500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC03_testCorporaButtonRedirect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC03_testCorporaButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:34 AST" name="TC03_testCorporaButtonRedirect" description="TC-03 | Verify &#039;المدونات&#039; button redirects correctly" finished-at="2025-08-25T06:52:35 AST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_testCorporaButtonRedirect -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:35 AST" name="tearDown" finished-at="2025-08-25T06:52:36 AST" duration-ms="1248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_testCorporaButtonRedirect status=SUCCESS method=HomePageTC.TC03_testCorporaButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:36 AST" name="setUp" finished-at="2025-08-25T06:52:45 AST" duration-ms="8773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC04_testVoicewallButtonRedirect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_testVoicewallButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:45 AST" name="TC04_testVoicewallButtonRedirect" description="TC-04 | Verify &#039;الجدارية الصوتية&#039; button redirects correctly" finished-at="2025-08-25T06:52:48 AST" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_testVoicewallButtonRedirect -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:48 AST" name="tearDown" finished-at="2025-08-25T06:52:49 AST" duration-ms="1246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC04_testVoicewallButtonRedirect status=SUCCESS method=HomePageTC.TC04_testVoicewallButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:52:49 AST" name="setUp" finished-at="2025-08-25T06:53:04 AST" duration-ms="14506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC05_testFrequencyListsButtonRedirect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC05_testFrequencyListsButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:04 AST" name="TC05_testFrequencyListsButtonRedirect" description="TC-05 | Verify &#039;قوائم الشيوع&#039; button redirects correctly" finished-at="2025-08-25T06:53:04 AST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_testFrequencyListsButtonRedirect -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:04 AST" name="tearDown" finished-at="2025-08-25T06:53:06 AST" duration-ms="1217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC05_testFrequencyListsButtonRedirect status=SUCCESS method=HomePageTC.TC05_testFrequencyListsButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:06 AST" name="setUp" finished-at="2025-08-25T06:53:12 AST" duration-ms="6680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC06_testDevelopersButtonRedirect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC06_testDevelopersButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:12 AST" name="TC06_testDevelopersButtonRedirect" description="TC-06 | Verify &#039;المطورون&#039; button redirects correctly" finished-at="2025-08-25T06:53:13 AST" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_testDevelopersButtonRedirect -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:13 AST" name="tearDown" finished-at="2025-08-25T06:53:15 AST" duration-ms="1088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC06_testDevelopersButtonRedirect status=SUCCESS method=HomePageTC.TC06_testDevelopersButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:15 AST" name="setUp" finished-at="2025-08-25T06:53:20 AST" duration-ms="5340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC07_testContactUsButtonRedirect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC07_testContactUsButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:20 AST" name="TC07_testContactUsButtonRedirect" description="TC-07 | Verify &#039;اتصل بنا&#039; button redirects correctly" finished-at="2025-08-25T06:53:21 AST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_testContactUsButtonRedirect -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:21 AST" name="tearDown" finished-at="2025-08-25T06:53:22 AST" duration-ms="1140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC07_testContactUsButtonRedirect status=SUCCESS method=HomePageTC.TC07_testContactUsButtonRedirect()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:22 AST" name="setUp" finished-at="2025-08-25T06:53:28 AST" duration-ms="6011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC08_testCorporaCard()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC08_testCorporaCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:28 AST" name="TC08_testCorporaCard" description="TC-08 | Verify that clicking the &#039;المدونات&#039; button in the main content redirects the user to the &#039;المدونات&#039; page of the website." finished-at="2025-08-25T06:53:29 AST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_testCorporaCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:29 AST" name="tearDown" finished-at="2025-08-25T06:53:30 AST" duration-ms="1217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC08_testCorporaCard status=SUCCESS method=HomePageTC.TC08_testCorporaCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:30 AST" name="setUp" finished-at="2025-08-25T06:53:39 AST" duration-ms="8805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC09_testToolsCard()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC09_testToolsCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:39 AST" name="TC09_testToolsCard" description="TC-09 | Verify that clicking the &#039;الأدوات&#039; button scrolls the page to the &#039;الأدوات&#039; section on the current page." finished-at="2025-08-25T06:53:39 AST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_testToolsCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:39 AST" name="tearDown" finished-at="2025-08-25T06:53:40 AST" duration-ms="1164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC09_testToolsCard status=SUCCESS method=HomePageTC.TC09_testToolsCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:40 AST" name="setUp" finished-at="2025-08-25T06:53:49 AST" duration-ms="8452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC10_testFeatureCard()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC10_testFeatureCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:49 AST" name="TC10_testFeatureCard" description="TC-10 | Verify that clicking the &#039;المزايا&#039; button scrolls the page to the &#039;المزايا&#039; section on the current page." finished-at="2025-08-25T06:53:49 AST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_testFeatureCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:49 AST" name="tearDown" finished-at="2025-08-25T06:53:50 AST" duration-ms="1355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC10_testFeatureCard status=SUCCESS method=HomePageTC.TC10_testFeatureCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:53:50 AST" name="setUp" finished-at="2025-08-25T06:54:00 AST" duration-ms="10196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC11_testaddCorporaCard()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC11_testaddCorporaCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:00 AST" name="TC11_testaddCorporaCard" description="TC-11 | Verify that clicking the &#039;أضف مدونتك&#039; button redirects the user to the page for adding a new مدونة." finished-at="2025-08-25T06:54:01 AST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_testaddCorporaCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:01 AST" name="tearDown" finished-at="2025-08-25T06:54:02 AST" duration-ms="1080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC11_testaddCorporaCard status=SUCCESS method=HomePageTC.TC11_testaddCorporaCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:02 AST" name="setUp" finished-at="2025-08-25T06:54:09 AST" duration-ms="6519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC12_testRegistrationSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC12_testRegistrationSection()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:09 AST" name="TC12_testRegistrationSection" description="TC-12 | Verify that clicking the &#039;استخدم منصة فلك والتسجيل&#039; section redirects the user to the &#039;لقاء تعريفي بمنصَّة فلك&#039; registration page where the user can submit a registration request." finished-at="2025-08-25T06:54:09 AST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_testRegistrationSection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:09 AST" name="tearDown" finished-at="2025-08-25T06:54:11 AST" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC12_testRegistrationSection status=SUCCESS method=HomePageTC.TC12_testRegistrationSection()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:11 AST" name="setUp" finished-at="2025-08-25T06:54:17 AST" duration-ms="6279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC13_testNumberOfCorporaContentCard()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC13_testNumberOfCorporaContentCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:17 AST" name="TC13_testNumberOfCorporaContentCard" description="TC-13 | Verify that the &#039;المدونات&#039; section is displayed correctly on the home page with 1 card at least" finished-at="2025-08-25T06:54:17 AST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_testNumberOfCorporaContentCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:17 AST" name="tearDown" finished-at="2025-08-25T06:54:18 AST" duration-ms="1165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC13_testNumberOfCorporaContentCard status=SUCCESS method=HomePageTC.TC13_testNumberOfCorporaContentCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:18 AST" name="setUp" finished-at="2025-08-25T06:54:23 AST" duration-ms="4603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC14_verifyEachCorporaCard_HasCompleteData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC14_verifyEachCorporaCard_HasCompleteData()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:23 AST" name="TC14_verifyEachCorporaCard_HasCompleteData" description="TC-14 | Verify that each مدونة card displays the correct elements (Title, Description, عدد نصوص, عدد كلمات, عدد كلمات بدون تكرار, اختر المدونة )." finished-at="2025-08-25T06:54:25 AST" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_verifyEachCorporaCard_HasCompleteData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:25 AST" name="tearDown" finished-at="2025-08-25T06:54:26 AST" duration-ms="1048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC14_verifyEachCorporaCard_HasCompleteData status=SUCCESS method=HomePageTC.TC14_verifyEachCorporaCard_HasCompleteData()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:26 AST" name="setUp" finished-at="2025-08-25T06:54:33 AST" duration-ms="6483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC15_verifyHoverEffectOnAllCorporaCards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC15_verifyHoverEffectOnAllCorporaCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:33 AST" name="TC15_verifyHoverEffectOnAllCorporaCards" description="TC-15 | Verify that a hover effect (corner shading) is applied when the mouse pointer hovers over any مدونة card." finished-at="2025-08-25T06:54:35 AST" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_verifyHoverEffectOnAllCorporaCards -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:35 AST" name="tearDown" finished-at="2025-08-25T06:54:36 AST" duration-ms="1189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC15_verifyHoverEffectOnAllCorporaCards status=SUCCESS method=HomePageTC.TC15_verifyHoverEffectOnAllCorporaCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:36 AST" name="setUp" finished-at="2025-08-25T06:54:43 AST" duration-ms="7481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC16_verifySelectButtonsRedirect_AllCards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC16_verifySelectButtonsRedirect_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:43 AST" name="TC16_verifySelectButtonsRedirect_AllCards" description="TC-16-Loop | Verify that clicking the &#039;اختر المدونة&#039; button on a مدونة card redirects the user to the corresponding مدونة details page." finished-at="2025-08-25T06:54:51 AST" duration-ms="7518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_verifySelectButtonsRedirect_AllCards -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:51 AST" name="tearDown" finished-at="2025-08-25T06:54:52 AST" duration-ms="1123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC16_verifySelectButtonsRedirect_AllCards status=SUCCESS method=HomePageTC.TC16_verifySelectButtonsRedirect_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:52 AST" name="setUp" finished-at="2025-08-25T06:54:57 AST" duration-ms="5145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC17_verifyMoreLinksRedirect_AllCards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC17_verifyMoreLinksRedirect_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:54:57 AST" name="TC17_verifyMoreLinksRedirect_AllCards" description="TC-17-Loop | Verify that clicking the &#039;المزيد&#039; button redirects the user to the full &#039;المدونات&#039; page." finished-at="2025-08-25T06:55:04 AST" duration-ms="6606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_verifyMoreLinksRedirect_AllCards -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:04 AST" name="tearDown" finished-at="2025-08-25T06:55:05 AST" duration-ms="1311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC17_verifyMoreLinksRedirect_AllCards status=SUCCESS method=HomePageTC.TC17_verifyMoreLinksRedirect_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:05 AST" name="setUp" finished-at="2025-08-25T06:55:12 AST" duration-ms="7194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC18_testMoreCorporaButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC18_testMoreCorporaButton()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:12 AST" name="TC18_testMoreCorporaButton" description="TC-18 | Verify that clicking the &#039;المزيد button redirects the user to the full &#039;المدونات&#039; page." finished-at="2025-08-25T06:55:14 AST" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_testMoreCorporaButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:14 AST" name="tearDown" finished-at="2025-08-25T06:55:15 AST" duration-ms="1204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC18_testMoreCorporaButton status=SUCCESS method=HomePageTC.TC18_testMoreCorporaButton()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:15 AST" name="setUp" finished-at="2025-08-25T06:55:24 AST" duration-ms="8902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC19_verifyCorporaOfMonthSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC19_verifyCorporaOfMonthSection()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:24 AST" name="TC19_verifyCorporaOfMonthSection" description="TC-19 | Verify that the &#039;مدونة الشهر&#039; section is displayed correctly on the home page with one مدونة card." finished-at="2025-08-25T06:55:25 AST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_verifyCorporaOfMonthSection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:25 AST" name="tearDown" finished-at="2025-08-25T06:55:26 AST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC19_verifyCorporaOfMonthSection status=SUCCESS method=HomePageTC.TC19_verifyCorporaOfMonthSection()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:26 AST" name="setUp" finished-at="2025-08-25T06:55:36 AST" duration-ms="10339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC20_verifyCorporaOfMonthCard_HasCompleteData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC20_verifyCorporaOfMonthCard_HasCompleteData()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:36 AST" name="TC20_verifyCorporaOfMonthCard_HasCompleteData" description="TC-20 | Verify that the &#039;مدونة الشهر&#039; card displays the correct elements (Title, Description, عدد نصوص, عدد كلمات, عدد كلمات بدون تكرار, عرض button)." finished-at="2025-08-25T06:55:37 AST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_verifyCorporaOfMonthCard_HasCompleteData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:37 AST" name="tearDown" finished-at="2025-08-25T06:55:38 AST" duration-ms="1046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC20_verifyCorporaOfMonthCard_HasCompleteData status=SUCCESS method=HomePageTC.TC20_verifyCorporaOfMonthCard_HasCompleteData()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:38 AST" name="setUp" finished-at="2025-08-25T06:55:49 AST" duration-ms="10964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC21_verifyHoverEffectOnBlogOfMonthCard()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC21_verifyHoverEffectOnBlogOfMonthCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:49 AST" name="TC21_verifyHoverEffectOnBlogOfMonthCard" description="TC-21 | Verify that a hover effect (corner shading) is applied when the mouse pointer hovers over the &#039;مدونة الشهر&#039; card." finished-at="2025-08-25T06:55:50 AST" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21_verifyHoverEffectOnBlogOfMonthCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:50 AST" name="tearDown" finished-at="2025-08-25T06:55:51 AST" duration-ms="1154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC21_verifyHoverEffectOnBlogOfMonthCard status=SUCCESS method=HomePageTC.TC21_verifyHoverEffectOnBlogOfMonthCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:51 AST" name="setUp" finished-at="2025-08-25T06:55:58 AST" duration-ms="6517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC22_verifyToolsSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC22_verifyToolsSection()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:58 AST" name="TC22_verifyToolsSection" description="TC-22 | Verify that the &#039;ادوات المنصة&#039; section is displayed correctly on the home page with section title, description, and 13 cards." finished-at="2025-08-25T06:55:58 AST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22_verifyToolsSection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:58 AST" name="tearDown" finished-at="2025-08-25T06:55:59 AST" duration-ms="1093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC22_verifyToolsSection status=SUCCESS method=HomePageTC.TC22_verifyToolsSection()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:55:59 AST" name="setUp" finished-at="2025-08-25T06:56:06 AST" duration-ms="6825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC23_verifyEachToolCardElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC23_verifyEachToolCardElements()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:56:06 AST" name="TC23_verifyEachToolCardElements" description="TC-23 | Verify that each &#039;اداة&#039; card displays the correct elements: icon image, title (Arabic + English), &#039;التفاصيل&#039; button." finished-at="2025-08-25T06:56:07 AST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC23_verifyEachToolCardElements -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:56:07 AST" name="tearDown" finished-at="2025-08-25T06:56:09 AST" duration-ms="1078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC23_verifyEachToolCardElements status=SUCCESS method=HomePageTC.TC23_verifyEachToolCardElements()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:56:09 AST" name="setUp" finished-at="2025-08-25T06:56:15 AST" duration-ms="6166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC24_verifyHoverEffectOnAllDetailsButtons()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC24_verifyHoverEffectOnAllDetailsButtons()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:56:15 AST" name="TC24_verifyHoverEffectOnAllDetailsButtons" description="TC-24 | Verify that hovering over &#039;التفاصيل&#039; button changes its color to dark blue. " finished-at="2025-08-25T06:56:20 AST" duration-ms="5629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24_verifyHoverEffectOnAllDetailsButtons -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:56:20 AST" name="tearDown" finished-at="2025-08-25T06:56:22 AST" duration-ms="1167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC24_verifyHoverEffectOnAllDetailsButtons status=SUCCESS method=HomePageTC.TC24_verifyHoverEffectOnAllDetailsButtons()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:56:22 AST" name="setUp" finished-at="2025-08-25T06:56:26 AST" duration-ms="4334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC25_verifyToolDetailsModal_AllCards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC25_verifyToolDetailsModal_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T06:56:26 AST" name="TC25_verifyToolDetailsModal_AllCards" description="TC-25 | Verify that clicking the &#039;التفاصيل&#039; button opens a popup screen (modal window) with correct content." finished-at="2025-08-25T07:01:01 AST" duration-ms="275128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC25_verifyToolDetailsModal_AllCards -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:01:01 AST" name="tearDown" finished-at="2025-08-25T07:01:02 AST" duration-ms="1145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC25_verifyToolDetailsModal_AllCards status=SUCCESS method=HomePageTC.TC25_verifyToolDetailsModal_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:01:02 AST" name="setUp" finished-at="2025-08-25T07:01:09 AST" duration-ms="7158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC26_verifyVideoAutoPlayInEachToolModal()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC26_verifyVideoAutoPlayInEachToolModal()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:01:09 AST" name="TC26_verifyVideoAutoPlayInEachToolModal" description="TC-26 | Verify that the video inside the popup starts playing automatically." finished-at="2025-08-25T07:05:55 AST" duration-ms="285188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC26_verifyVideoAutoPlayInEachToolModal -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:05:55 AST" name="tearDown" finished-at="2025-08-25T07:05:56 AST" duration-ms="1200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC26_verifyVideoAutoPlayInEachToolModal status=SUCCESS method=HomePageTC.TC26_verifyVideoAutoPlayInEachToolModal()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:05:56 AST" name="setUp" finished-at="2025-08-25T07:06:02 AST" duration-ms="5814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC27_verifyModalVerticalScroll_AllCards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC27_verifyModalVerticalScroll_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:06:02 AST" name="TC27_verifyModalVerticalScroll_AllCards" description="TC-27 | Verify that the popup allows vertical scrolling if the content exceeds visible area." finished-at="2025-08-25T07:10:33 AST" duration-ms="271710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC27_verifyModalVerticalScroll_AllCards -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:10:33 AST" name="tearDown" finished-at="2025-08-25T07:10:34 AST" duration-ms="1102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC27_verifyModalVerticalScroll_AllCards status=SUCCESS method=HomePageTC.TC27_verifyModalVerticalScroll_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:10:34 AST" name="setUp" finished-at="2025-08-25T07:10:42 AST" duration-ms="7939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC28_verifyModalCloseButton_AllCards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC28_verifyModalCloseButton_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:10:42 AST" name="TC28_verifyModalCloseButton_AllCards" description="TC-28 | Verify that clicking the close button closes the popup screen." finished-at="2025-08-25T07:17:24 AST" duration-ms="401840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC28_verifyModalCloseButton_AllCards -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:24 AST" name="tearDown" finished-at="2025-08-25T07:17:25 AST" duration-ms="1216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC28_verifyModalCloseButton_AllCards status=SUCCESS method=HomePageTC.TC28_verifyModalCloseButton_AllCards()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:25 AST" name="setUp" finished-at="2025-08-25T07:17:31 AST" duration-ms="5524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC29_verifyFeaturesSectionVisibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC29_verifyFeaturesSectionVisibility()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:31 AST" name="TC29_verifyFeaturesSectionVisibility" description="TC-29 | Verify that the &#039;مزايا المنصة&#039; section is displayed correctly on the home page." finished-at="2025-08-25T07:17:31 AST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC29_verifyFeaturesSectionVisibility -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:31 AST" name="tearDown" finished-at="2025-08-25T07:17:32 AST" duration-ms="1155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC29_verifyFeaturesSectionVisibility status=SUCCESS method=HomePageTC.TC29_verifyFeaturesSectionVisibility()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:32 AST" name="setUp" finished-at="2025-08-25T07:17:36 AST" duration-ms="4024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC30_verifyFeatureCardsVisualsAndTitles()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC30_verifyFeatureCardsVisualsAndTitles()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:36 AST" name="TC30_verifyFeatureCardsVisualsAndTitles" description="TC-30 | Verify that each &#039;ميزة&#039; card displays the correct elements: animation, title text. " finished-at="2025-08-25T07:17:37 AST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC30_verifyFeatureCardsVisualsAndTitles -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:37 AST" name="tearDown" finished-at="2025-08-25T07:17:38 AST" duration-ms="1148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC30_verifyFeatureCardsVisualsAndTitles status=SUCCESS method=HomePageTC.TC30_verifyFeatureCardsVisualsAndTitles()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:38 AST" name="setUp" finished-at="2025-08-25T07:17:44 AST" duration-ms="5573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC31_verifyHoverEffectOnEachFeatureCard()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC31_verifyHoverEffectOnEachFeatureCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:44 AST" name="TC31_verifyHoverEffectOnEachFeatureCard" description="TC-31 | Verify that a hover effect (shaded visual effect) is applied when the mouse pointer hovers over any &#039;ميزة&#039; card." finished-at="2025-08-25T07:17:45 AST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC31_verifyHoverEffectOnEachFeatureCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:45 AST" name="tearDown" finished-at="2025-08-25T07:17:46 AST" duration-ms="1159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC31_verifyHoverEffectOnEachFeatureCard status=SUCCESS method=HomePageTC.TC31_verifyHoverEffectOnEachFeatureCard()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:46 AST" name="setUp" finished-at="2025-08-25T07:17:51 AST" duration-ms="4905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC32_verifyFalakInNumbersSectionVisibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC32_verifyFalakInNumbersSectionVisibility()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:51 AST" name="TC32_verifyFalakInNumbersSectionVisibility" description="TC-32 | Verify that the &#039;فلك في ارقام&#039; section is displayed correctly on the home page." finished-at="2025-08-25T07:17:52 AST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC32_verifyFalakInNumbersSectionVisibility -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:52 AST" name="tearDown" finished-at="2025-08-25T07:17:53 AST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC32_verifyFalakInNumbersSectionVisibility status=SUCCESS method=HomePageTC.TC32_verifyFalakInNumbersSectionVisibility()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:53 AST" name="setUp" finished-at="2025-08-25T07:17:59 AST" duration-ms="6206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC33_verifyFalakStatsImageIsDisplayedCorrectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC33_verifyFalakStatsImageIsDisplayedCorrectly()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:59 AST" name="TC33_verifyFalakStatsImageIsDisplayedCorrectly" description="TC-33 | Verify that the static image in the &#039;فلك في ارقام&#039; section is displayed correctly without distortion or broken image." finished-at="2025-08-25T07:17:59 AST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC33_verifyFalakStatsImageIsDisplayedCorrectly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:17:59 AST" name="tearDown" finished-at="2025-08-25T07:18:00 AST" duration-ms="1094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC33_verifyFalakStatsImageIsDisplayedCorrectly status=SUCCESS method=HomePageTC.TC33_verifyFalakStatsImageIsDisplayedCorrectly()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:18:00 AST" name="setUp" finished-at="2025-08-25T07:18:06 AST" duration-ms="5835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.HomePageTC.TC34_verifyScrollToTopButtonFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC34_verifyScrollToTopButtonFunctionality()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:18:06 AST" name="TC34_verifyScrollToTopButtonFunctionality" description="TC-34 | Verify that clicking the &#039;Top of Page&#039; button scrolls the page up to the top of the home page." finished-at="2025-08-25T07:18:07 AST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC34_verifyScrollToTopButtonFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d]" started-at="2025-08-25T07:18:07 AST" name="tearDown" finished-at="2025-08-25T07:18:08 AST" duration-ms="1150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC34_verifyScrollToTopButtonFunctionality status=SUCCESS method=HomePageTC.TC34_verifyScrollToTopButtonFunctionality()[pri:0, instance:com.falak.qa.tests.HomePageTC@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.falak.qa.tests.HomePageTC -->
+      <class name="com.falak.qa.tests.ConcordancerToolTC">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:08 AST" name="setUp" finished-at="2025-08-25T07:18:15 AST" duration-ms="6877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC01_openConcordancerToolFromHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC01_openConcordancerToolFromHomePage()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:15 AST" name="TC01_openConcordancerToolFromHomePage" description="TC-01 | Verify that user can open the ‘الكشاف السياقي’ tool for مجمع اللغة العربية from the home page" finished-at="2025-08-25T07:18:18 AST" duration-ms="3464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_openConcordancerToolFromHomePage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:18 AST" name="tearDown" finished-at="2025-08-25T07:18:19 AST" duration-ms="1282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_openConcordancerToolFromHomePage status=SUCCESS method=ConcordancerToolTC.TC01_openConcordancerToolFromHomePage()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:19 AST" name="setUp" finished-at="2025-08-25T07:18:25 AST" duration-ms="5185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC02_verifyConcordancerToolTitleFromDirectURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC02_verifyConcordancerToolTitleFromDirectURL()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:25 AST" name="TC02_verifyConcordancerToolTitleFromDirectURL" description="TC-02 | Verify that the correct title &#039;الكشاف السياقي&#039; is displayed when opening the tool directly" finished-at="2025-08-25T07:18:27 AST" duration-ms="2023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_verifyConcordancerToolTitleFromDirectURL -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:27 AST" name="tearDown" finished-at="2025-08-25T07:18:28 AST" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_verifyConcordancerToolTitleFromDirectURL status=SUCCESS method=ConcordancerToolTC.TC02_verifyConcordancerToolTitleFromDirectURL()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:28 AST" name="setUp" finished-at="2025-08-25T07:18:33 AST" duration-ms="5449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC03_verifyInfoPopupInConcordancerTool()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC03_verifyInfoPopupInConcordancerTool()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:33 AST" name="TC03_verifyInfoPopupInConcordancerTool" description="TC-03 | Verify that clicking the info (!) icon shows the tool&#039;s description popup" finished-at="2025-08-25T07:18:36 AST" duration-ms="3248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_verifyInfoPopupInConcordancerTool -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:36 AST" name="tearDown" finished-at="2025-08-25T07:18:38 AST" duration-ms="1269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_verifyInfoPopupInConcordancerTool status=SUCCESS method=ConcordancerToolTC.TC03_verifyInfoPopupInConcordancerTool()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:38 AST" name="setUp" finished-at="2025-08-25T07:18:42 AST" duration-ms="4493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC04_verifyInfoPopupCanBeClosed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_verifyInfoPopupCanBeClosed()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:42 AST" name="TC04_verifyInfoPopupCanBeClosed" description="TC-04 | Verify that the info popup can be closed by clicking the (X) button" finished-at="2025-08-25T07:18:55 AST" duration-ms="12566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_verifyInfoPopupCanBeClosed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:55 AST" name="tearDown" finished-at="2025-08-25T07:18:56 AST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC04_verifyInfoPopupCanBeClosed status=SUCCESS method=ConcordancerToolTC.TC04_verifyInfoPopupCanBeClosed()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:18:56 AST" name="setUp" finished-at="2025-08-25T07:19:01 AST" duration-ms="5022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC05_verifySearchFunctionalityWithValidInput()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC05_verifySearchFunctionalityWithValidInput()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:19:01 AST" name="TC05_verifySearchFunctionalityWithValidInput" description="TC-05 | Verify that entering a valid word in the search box shows correct filtered results" finished-at="2025-08-25T07:19:31 AST" duration-ms="30179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_verifySearchFunctionalityWithValidInput -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:19:31 AST" name="tearDown" finished-at="2025-08-25T07:19:32 AST" duration-ms="1119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC05_verifySearchFunctionalityWithValidInput status=SUCCESS method=ConcordancerToolTC.TC05_verifySearchFunctionalityWithValidInput()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:19:32 AST" name="setUp" finished-at="2025-08-25T07:19:38 AST" duration-ms="6150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC06_verifyVirtualKeyboardTyping()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC06_verifyVirtualKeyboardTyping()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:19:38 AST" name="TC06_verifyVirtualKeyboardTyping" description="TC-06 | Verify that the virtual keyboard types letters, numbers, and symbols into the search box" finished-at="2025-08-25T07:19:41 AST" duration-ms="2428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_verifyVirtualKeyboardTyping -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:19:41 AST" name="tearDown" finished-at="2025-08-25T07:19:42 AST" duration-ms="1215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC06_verifyVirtualKeyboardTyping status=SUCCESS method=ConcordancerToolTC.TC06_verifyVirtualKeyboardTyping()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:19:42 AST" name="setUp" finished-at="2025-08-25T07:19:48 AST" duration-ms="5528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC07_verifyExportButtonFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC07_verifyExportButtonFunctionality()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:19:48 AST" name="TC07_verifyExportButtonFunctionality" description="TC-07 | Verify that clicking the export button downloads the search results" finished-at="2025-08-25T07:20:25 AST" duration-ms="37823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_verifyExportButtonFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:20:25 AST" name="tearDown" finished-at="2025-08-25T07:20:26 AST" duration-ms="1106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC07_verifyExportButtonFunctionality status=SUCCESS method=ConcordancerToolTC.TC07_verifyExportButtonFunctionality()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:20:26 AST" name="setUp" finished-at="2025-08-25T07:20:38 AST" duration-ms="11271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC08_verifyDomainFilterAffectsResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC08_verifyDomainFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:20:38 AST" name="TC08_verifyDomainFilterAffectsResults" description="TC-08 | Verify that using the Domain Filter affects the search results" finished-at="2025-08-25T07:21:14 AST" duration-ms="36208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_verifyDomainFilterAffectsResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:21:14 AST" name="tearDown" finished-at="2025-08-25T07:21:15 AST" duration-ms="1171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC08_verifyDomainFilterAffectsResults status=SUCCESS method=ConcordancerToolTC.TC08_verifyDomainFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:21:15 AST" name="setUp" finished-at="2025-08-25T07:21:21 AST" duration-ms="6064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC09_verifyTopicFilterAffectsResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC09_verifyTopicFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:21:21 AST" name="TC09_verifyTopicFilterAffectsResults" description="TC-09 | Verify that using the Topic Filter affects the search results" finished-at="2025-08-25T07:22:00 AST" duration-ms="38402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_verifyTopicFilterAffectsResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:22:00 AST" name="tearDown" finished-at="2025-08-25T07:22:01 AST" duration-ms="1303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC09_verifyTopicFilterAffectsResults status=SUCCESS method=ConcordancerToolTC.TC09_verifyTopicFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:22:01 AST" name="setUp" finished-at="2025-08-25T07:22:07 AST" duration-ms="6435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC10_verifyPlaceFilterAffectsResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC10_verifyPlaceFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:22:07 AST" name="TC10_verifyPlaceFilterAffectsResults" description="TC-10 | Verify that using the Place Filter affects the search results" finished-at="2025-08-25T07:22:46 AST" duration-ms="38169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_verifyPlaceFilterAffectsResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:22:46 AST" name="tearDown" finished-at="2025-08-25T07:22:47 AST" duration-ms="1245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC10_verifyPlaceFilterAffectsResults status=SUCCESS method=ConcordancerToolTC.TC10_verifyPlaceFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:22:47 AST" name="setUp" finished-at="2025-08-25T07:22:54 AST" duration-ms="7109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC11_verifyTimeFilterAffectsResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC11_verifyTimeFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:22:54 AST" name="TC11_verifyTimeFilterAffectsResults" description="TC-11 | Verify that using the Time Period Filter affects the search results" finished-at="2025-08-25T07:23:34 AST" duration-ms="40131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_verifyTimeFilterAffectsResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:23:34 AST" name="tearDown" finished-at="2025-08-25T07:23:35 AST" duration-ms="1319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC11_verifyTimeFilterAffectsResults status=SUCCESS method=ConcordancerToolTC.TC11_verifyTimeFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:23:35 AST" name="setUp" finished-at="2025-08-25T07:23:43 AST" duration-ms="7560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC12_verifyContainerFilterAffectsResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC12_verifyContainerFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:23:43 AST" name="TC12_verifyContainerFilterAffectsResults" description="TC-12 | Verify that using the Container Filter affects the search results" finished-at="2025-08-25T07:24:23 AST" duration-ms="40344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_verifyContainerFilterAffectsResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:24:23 AST" name="tearDown" finished-at="2025-08-25T07:24:25 AST" duration-ms="1281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC12_verifyContainerFilterAffectsResults status=SUCCESS method=ConcordancerToolTC.TC12_verifyContainerFilterAffectsResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:24:25 AST" name="setUp" finished-at="2025-08-25T07:24:30 AST" duration-ms="5586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC13_verifyCopyFunctionalityInResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC13_verifyCopyFunctionalityInResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:24:30 AST" name="TC13_verifyCopyFunctionalityInResults" description="TC-13 | Verify copy functionality in Concordancer results" finished-at="2025-08-25T07:25:06 AST" duration-ms="35371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_verifyCopyFunctionalityInResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:25:06 AST" name="tearDown" finished-at="2025-08-25T07:25:07 AST" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC13_verifyCopyFunctionalityInResults status=SUCCESS method=ConcordancerToolTC.TC13_verifyCopyFunctionalityInResults()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:25:07 AST" name="setUp" finished-at="2025-08-25T07:25:11 AST" duration-ms="4400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC14_verifyDetailsPopupFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC14_verifyDetailsPopupFunctionality()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:25:11 AST" name="TC14_verifyDetailsPopupFunctionality" description="TC-14 | Verify details popup functionality in Concordancer results" finished-at="2025-08-25T07:25:56 AST" duration-ms="44655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_verifyDetailsPopupFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:25:56 AST" name="tearDown" finished-at="2025-08-25T07:25:57 AST" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC14_verifyDetailsPopupFunctionality status=SUCCESS method=ConcordancerToolTC.TC14_verifyDetailsPopupFunctionality()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:25:57 AST" name="setUp" finished-at="2025-08-25T07:26:03 AST" duration-ms="6236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC15_verifyResultsTableHasData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC15_verifyResultsTableHasData()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:26:03 AST" name="TC15_verifyResultsTableHasData" description="TC-15 | Verify results table is displayed with data after valid search" finished-at="2025-08-25T07:26:38 AST" duration-ms="34586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_verifyResultsTableHasData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:26:38 AST" name="tearDown" finished-at="2025-08-25T07:26:39 AST" duration-ms="1088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC15_verifyResultsTableHasData status=SUCCESS method=ConcordancerToolTC.TC15_verifyResultsTableHasData()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:26:39 AST" name="setUp" finished-at="2025-08-25T07:26:44 AST" duration-ms="5178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC16_verifySortableColumnsFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC16_verifySortableColumnsFunctionality()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:26:44 AST" name="TC16_verifySortableColumnsFunctionality" description="TC-16 | Verify sorting functionality of sortable columns using last-word logic" finished-at="2025-08-25T07:28:11 AST" duration-ms="87181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_verifySortableColumnsFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:28:11 AST" name="tearDown" finished-at="2025-08-25T07:28:13 AST" duration-ms="1203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC16_verifySortableColumnsFunctionality status=SUCCESS method=ConcordancerToolTC.TC16_verifySortableColumnsFunctionality()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:28:13 AST" name="setUp" finished-at="2025-08-25T07:28:19 AST" duration-ms="6035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC17_verifyPaginationControlsAreVisible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC17_verifyPaginationControlsAreVisible()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:28:19 AST" name="TC17_verifyPaginationControlsAreVisible" description="TC-17 | Verify that pagination bar appears when results span multiple pages" finished-at="2025-08-25T07:28:53 AST" duration-ms="34381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_verifyPaginationControlsAreVisible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:28:53 AST" name="tearDown" finished-at="2025-08-25T07:28:54 AST" duration-ms="1308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC17_verifyPaginationControlsAreVisible status=SUCCESS method=ConcordancerToolTC.TC17_verifyPaginationControlsAreVisible()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:28:54 AST" name="setUp" finished-at="2025-08-25T07:29:00 AST" duration-ms="5636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC18_verifyNavigationToSpecificPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC18_verifyNavigationToSpecificPage()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:29:00 AST" name="TC18_verifyNavigationToSpecificPage" description="TC-18 | Verify navigating to specific page number using pagination" finished-at="2025-08-25T07:29:35 AST" duration-ms="34954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_verifyNavigationToSpecificPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:29:35 AST" name="tearDown" finished-at="2025-08-25T07:29:36 AST" duration-ms="1053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC18_verifyNavigationToSpecificPage status=SUCCESS method=ConcordancerToolTC.TC18_verifyNavigationToSpecificPage()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:29:36 AST" name="setUp" finished-at="2025-08-25T07:29:45 AST" duration-ms="9195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC19_verifyHighlightedCurrentPageNumber()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC19_verifyHighlightedCurrentPageNumber()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:29:45 AST" name="TC19_verifyHighlightedCurrentPageNumber" description="TC-19 | Verify that the current page number is highlighted after navigation" finished-at="2025-08-25T07:30:20 AST" duration-ms="34803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_verifyHighlightedCurrentPageNumber -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:30:20 AST" name="tearDown" finished-at="2025-08-25T07:30:21 AST" duration-ms="1099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC19_verifyHighlightedCurrentPageNumber status=SUCCESS method=ConcordancerToolTC.TC19_verifyHighlightedCurrentPageNumber()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:30:21 AST" name="setUp" finished-at="2025-08-25T07:30:27 AST" duration-ms="5761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC20_verifyResultsPerPageDropdown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC20_verifyResultsPerPageDropdown()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:30:27 AST" name="TC20_verifyResultsPerPageDropdown" description="TC-20 | Verify changing number of displayed results updates table rows" finished-at="2025-08-25T07:31:03 AST" duration-ms="36705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_verifyResultsPerPageDropdown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:31:03 AST" name="tearDown" finished-at="2025-08-25T07:31:05 AST" duration-ms="1419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC20_verifyResultsPerPageDropdown status=SUCCESS method=ConcordancerToolTC.TC20_verifyResultsPerPageDropdown()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:31:05 AST" name="setUp" finished-at="2025-08-25T07:31:11 AST" duration-ms="6121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.ConcordancerToolTC.TC21_verifyPaginationResetAfterChangingResultsPerPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC21_verifyPaginationResetAfterChangingResultsPerPage()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:31:11 AST" name="TC21_verifyPaginationResetAfterChangingResultsPerPage" description="TC-21 | Verify that changing results per page resets pagination to first page" finished-at="2025-08-25T07:31:47 AST" duration-ms="35870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21_verifyPaginationResetAfterChangingResultsPerPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10]" started-at="2025-08-25T07:31:47 AST" name="tearDown" finished-at="2025-08-25T07:31:48 AST" duration-ms="1169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC21_verifyPaginationResetAfterChangingResultsPerPage status=SUCCESS method=ConcordancerToolTC.TC21_verifyPaginationResetAfterChangingResultsPerPage()[pri:0, instance:com.falak.qa.tests.ConcordancerToolTC@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.falak.qa.tests.ConcordancerToolTC -->
+      <class name="com.falak.qa.tests.NGramsToolTC">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:31:48 AST" name="setUp" finished-at="2025-08-25T07:31:53 AST" duration-ms="5169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC01_openNGramsToolFromHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC01_openNGramsToolFromHomePage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:31:53 AST" name="TC01_openNGramsToolFromHomePage" description="TC-01 | Verify that user can open the ‘التتابعات اللَّفظيَّة’ tool for مجمع اللغة العربية from the home page" finished-at="2025-08-25T07:31:58 AST" duration-ms="4536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_openNGramsToolFromHomePage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:31:58 AST" name="tearDown" finished-at="2025-08-25T07:31:59 AST" duration-ms="1225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_openNGramsToolFromHomePage status=SUCCESS method=NGramsToolTC.TC01_openNGramsToolFromHomePage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:31:59 AST" name="setUp" finished-at="2025-08-25T07:32:06 AST" duration-ms="6606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC02_verifyToolTitleIsDisplayedCorrectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC02_verifyToolTitleIsDisplayedCorrectly()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:06 AST" name="TC02_verifyToolTitleIsDisplayedCorrectly" description="TC-02 | Verify that the correct tool title is displayed" finished-at="2025-08-25T07:32:07 AST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_verifyToolTitleIsDisplayedCorrectly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:07 AST" name="tearDown" finished-at="2025-08-25T07:32:08 AST" duration-ms="1154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_verifyToolTitleIsDisplayedCorrectly status=SUCCESS method=NGramsToolTC.TC02_verifyToolTitleIsDisplayedCorrectly()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:08 AST" name="setUp" finished-at="2025-08-25T07:32:15 AST" duration-ms="7083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC03_verifyInfoPopupInNGramsTool()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC03_verifyInfoPopupInNGramsTool()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:15 AST" name="TC03_verifyInfoPopupInNGramsTool" description="TC-03 | Verify that clicking the info (!) icon shows the tool&#039;s description popup" finished-at="2025-08-25T07:32:18 AST" duration-ms="2771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_verifyInfoPopupInNGramsTool -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:18 AST" name="tearDown" finished-at="2025-08-25T07:32:19 AST" duration-ms="1253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_verifyInfoPopupInNGramsTool status=SUCCESS method=NGramsToolTC.TC03_verifyInfoPopupInNGramsTool()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:19 AST" name="setUp" finished-at="2025-08-25T07:32:23 AST" duration-ms="4223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC04_verifyInfoPopupCanBeClosed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_verifyInfoPopupCanBeClosed()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:23 AST" name="TC04_verifyInfoPopupCanBeClosed" description="TC-04 | Verify that the info popup can be closed by clicking the (X) button" finished-at="2025-08-25T07:32:36 AST" duration-ms="12802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_verifyInfoPopupCanBeClosed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:36 AST" name="tearDown" finished-at="2025-08-25T07:32:37 AST" duration-ms="1410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC04_verifyInfoPopupCanBeClosed status=SUCCESS method=NGramsToolTC.TC04_verifyInfoPopupCanBeClosed()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:37 AST" name="setUp" finished-at="2025-08-25T07:32:43 AST" duration-ms="5327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC05_verifyFilteredResultsMatchSelectedWordCount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC05_verifyFilteredResultsMatchSelectedWordCount()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:32:43 AST" name="TC05_verifyFilteredResultsMatchSelectedWordCount" description="TC-05 | Verify that results contain sentences matching the selected word count filter (1, 2, or 3)" finished-at="2025-08-25T07:33:06 AST" duration-ms="23217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_verifyFilteredResultsMatchSelectedWordCount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:33:06 AST" name="tearDown" finished-at="2025-08-25T07:33:07 AST" duration-ms="1134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC05_verifyFilteredResultsMatchSelectedWordCount status=SUCCESS method=NGramsToolTC.TC05_verifyFilteredResultsMatchSelectedWordCount()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:33:07 AST" name="setUp" finished-at="2025-08-25T07:33:12 AST" duration-ms="4454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC06_verifyMinFreqIncrementDecrementViaJS()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC06_verifyMinFreqIncrementDecrementViaJS()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:33:12 AST" name="TC06_verifyMinFreqIncrementDecrementViaJS" description="TC-06 | Verify that the min frequency field increases and decreases correctly using JS" finished-at="2025-08-25T07:33:34 AST" duration-ms="22609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_verifyMinFreqIncrementDecrementViaJS -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:33:34 AST" name="tearDown" finished-at="2025-08-25T07:33:35 AST" duration-ms="1286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC06_verifyMinFreqIncrementDecrementViaJS status=SUCCESS method=NGramsToolTC.TC06_verifyMinFreqIncrementDecrementViaJS()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:33:35 AST" name="setUp" finished-at="2025-08-25T07:33:39 AST" duration-ms="3802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC07_verifyMaxFreqIncrementDecrementViaJS()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC07_verifyMaxFreqIncrementDecrementViaJS()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:33:39 AST" name="TC07_verifyMaxFreqIncrementDecrementViaJS" description="TC-07 | Verify that the max frequency field increases and decreases correctly using JS" finished-at="2025-08-25T07:34:02 AST" duration-ms="22990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_verifyMaxFreqIncrementDecrementViaJS -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:34:02 AST" name="tearDown" finished-at="2025-08-25T07:34:04 AST" duration-ms="1220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC07_verifyMaxFreqIncrementDecrementViaJS status=SUCCESS method=NGramsToolTC.TC07_verifyMaxFreqIncrementDecrementViaJS()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:34:04 AST" name="setUp" finished-at="2025-08-25T07:34:09 AST" duration-ms="5113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC08_verifyDoesNotContainFilter()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC08_verifyDoesNotContainFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:34:09 AST" name="TC08_verifyDoesNotContainFilter" description="TC-08 | Verify that &#039;Does Not Contain&#039; filter works correctly" finished-at="2025-08-25T07:34:32 AST" duration-ms="23014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_verifyDoesNotContainFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:34:32 AST" name="tearDown" finished-at="2025-08-25T07:34:33 AST" duration-ms="1356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC08_verifyDoesNotContainFilter status=SUCCESS method=NGramsToolTC.TC08_verifyDoesNotContainFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:34:33 AST" name="setUp" finished-at="2025-08-25T07:34:37 AST" duration-ms="3629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC09_verifyContainsFilter()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC09_verifyContainsFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:34:37 AST" name="TC09_verifyContainsFilter" description="TC-09 | Verify that &#039;Contains&#039; filter works correctly" finished-at="2025-08-25T07:35:30 AST" duration-ms="53669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_verifyContainsFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:35:30 AST" name="tearDown" finished-at="2025-08-25T07:35:32 AST" duration-ms="1286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC09_verifyContainsFilter status=SUCCESS method=NGramsToolTC.TC09_verifyContainsFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:35:32 AST" name="setUp" finished-at="2025-08-25T07:35:38 AST" duration-ms="6263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC10_verifyStartsWithFilter()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC10_verifyStartsWithFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:35:38 AST" name="TC10_verifyStartsWithFilter" description="TC-10 | Verify that &#039;Starts With&#039; filter works correctly" finished-at="2025-08-25T07:36:46 AST" duration-ms="67978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_verifyStartsWithFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:36:46 AST" name="tearDown" finished-at="2025-08-25T07:36:47 AST" duration-ms="1297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC10_verifyStartsWithFilter status=SUCCESS method=NGramsToolTC.TC10_verifyStartsWithFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:36:47 AST" name="setUp" finished-at="2025-08-25T07:36:52 AST" duration-ms="4738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC11_verifyEndsWithFilter()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC11_verifyEndsWithFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:36:52 AST" name="TC11_verifyEndsWithFilter" description="TC-11 | Verify that &#039;Ends With&#039; filter works correctly" finished-at="2025-08-25T07:38:19 AST" duration-ms="86661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_verifyEndsWithFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:38:19 AST" name="tearDown" finished-at="2025-08-25T07:38:20 AST" duration-ms="1178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC11_verifyEndsWithFilter status=SUCCESS method=NGramsToolTC.TC11_verifyEndsWithFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:38:20 AST" name="setUp" finished-at="2025-08-25T07:38:27 AST" duration-ms="7323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC12_verifyExportWithApiParity()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC12_verifyExportWithApiParity()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:38:27 AST" name="TC12_verifyExportWithApiParity" description="TC-12 | Export downloads file and UI results match API results for the same search" finished-at="2025-08-25T07:39:50 AST" duration-ms="82647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_verifyExportWithApiParity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:39:50 AST" name="tearDown" finished-at="2025-08-25T07:39:51 AST" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC12_verifyExportWithApiParity status=SUCCESS method=NGramsToolTC.TC12_verifyExportWithApiParity()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:39:51 AST" name="setUp" finished-at="2025-08-25T07:39:56 AST" duration-ms="4997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC13_verifyExcludePunctuationFilter()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC13_verifyExcludePunctuationFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:39:56 AST" name="TC13_verifyExcludePunctuationFilter" description="TC-13 | Verify that exclude-punctuation filter works correctly in UI and API" finished-at="2025-08-25T07:40:35 AST" duration-ms="38769" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[الخدمة أعادت خطأ شبكة: status=500 url=https://falak.ksaa.gov.sa/api/tools/ngram/babe4d42-221a-4fc1-8ce9-03bd3fa92dc1?n=2&limit=1000&pageNumber=0&minFreq=2&maxFreq=500000&excludeWords=&containWords=&startWithWords=&endWithWords=%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9&excludeRegex=true type=2212.434]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: الخدمة أعادت خطأ شبكة: status=500 url=https://falak.ksaa.gov.sa/api/tools/ngram/babe4d42-221a-4fc1-8ce9-03bd3fa92dc1?n=2&limit=1000&pageNumber=0&minFreq=2&maxFreq=500000&excludeWords=&containWords=&startWithWords=&endWithWords=%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9&excludeRegex=true type=2212.434
+at org.testng.Assert.fail(Assert.java:111)
+at com.falak.qa.tests.NGramsToolTC.TC13_verifyExcludePunctuationFilter(NGramsToolTC.java:1391)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_verifyExcludePunctuationFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:40:35 AST" name="tearDown" finished-at="2025-08-25T07:40:35 AST" duration-ms="726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC13_verifyExcludePunctuationFilter status=FAILURE method=NGramsToolTC.TC13_verifyExcludePunctuationFilter()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:40:35 AST" name="setUp" finished-at="2025-08-25T07:40:40 AST" duration-ms="4656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC14_verifyNGramsExportDownload()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC14_verifyNGramsExportDownload()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:40:40 AST" name="TC14_verifyNGramsExportDownload" description="TC-14 | Verify that clicking the export button downloads the search results (NGrams)" finished-at="2025-08-25T07:41:14 AST" duration-ms="34191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_verifyNGramsExportDownload -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:14 AST" name="tearDown" finished-at="2025-08-25T07:41:16 AST" duration-ms="1323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC14_verifyNGramsExportDownload status=SUCCESS method=NGramsToolTC.TC14_verifyNGramsExportDownload()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:16 AST" name="setUp" finished-at="2025-08-25T07:41:24 AST" duration-ms="8388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC15_verifyNGramsPaginationControlsVisible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC15_verifyNGramsPaginationControlsVisible()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:24 AST" name="TC15_verifyNGramsPaginationControlsVisible" description="TC-15 | Verify that pagination controls are visible under the results table in NGrams" finished-at="2025-08-25T07:41:26 AST" duration-ms="2145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_verifyNGramsPaginationControlsVisible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:26 AST" name="tearDown" finished-at="2025-08-25T07:41:27 AST" duration-ms="1105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC15_verifyNGramsPaginationControlsVisible status=SUCCESS method=NGramsToolTC.TC15_verifyNGramsPaginationControlsVisible()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:27 AST" name="setUp" finished-at="2025-08-25T07:41:32 AST" duration-ms="5175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC16_verifyNGramsDefaultResultsPerPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC16_verifyNGramsDefaultResultsPerPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:32 AST" name="TC16_verifyNGramsDefaultResultsPerPage" description="TC-16 | Verify that the default number of rows per page is correct in NGrams results table" finished-at="2025-08-25T07:41:34 AST" duration-ms="1657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_verifyNGramsDefaultResultsPerPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:34 AST" name="tearDown" finished-at="2025-08-25T07:41:35 AST" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC16_verifyNGramsDefaultResultsPerPage status=SUCCESS method=NGramsToolTC.TC16_verifyNGramsDefaultResultsPerPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:35 AST" name="setUp" finished-at="2025-08-25T07:41:44 AST" duration-ms="9180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC17_verifyNavigationToNextPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC17_verifyNavigationToNextPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:44 AST" name="TC17_verifyNavigationToNextPage" description="TC-17 | Verify navigating to next page using pagination" finished-at="2025-08-25T07:41:46 AST" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_verifyNavigationToNextPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:46 AST" name="tearDown" finished-at="2025-08-25T07:41:47 AST" duration-ms="1104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC17_verifyNavigationToNextPage status=SUCCESS method=NGramsToolTC.TC17_verifyNavigationToNextPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:47 AST" name="setUp" finished-at="2025-08-25T07:41:53 AST" duration-ms="5264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC18_verifyNavigationToPreviousPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC18_verifyNavigationToPreviousPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:53 AST" name="TC18_verifyNavigationToPreviousPage" description="TC-18 | Verify navigating to previous page using pagination" finished-at="2025-08-25T07:41:55 AST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_verifyNavigationToPreviousPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:55 AST" name="tearDown" finished-at="2025-08-25T07:41:56 AST" duration-ms="1088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC18_verifyNavigationToPreviousPage status=SUCCESS method=NGramsToolTC.TC18_verifyNavigationToPreviousPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:41:56 AST" name="setUp" finished-at="2025-08-25T07:42:02 AST" duration-ms="6126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC19_verifyNavigationToSpecificPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC19_verifyNavigationToSpecificPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:02 AST" name="TC19_verifyNavigationToSpecificPage" description="TC-19 | Verify navigating to a specific page using pagination" finished-at="2025-08-25T07:42:04 AST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_verifyNavigationToSpecificPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:04 AST" name="tearDown" finished-at="2025-08-25T07:42:05 AST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC19_verifyNavigationToSpecificPage status=SUCCESS method=NGramsToolTC.TC19_verifyNavigationToSpecificPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:05 AST" name="setUp" finished-at="2025-08-25T07:42:10 AST" duration-ms="5497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC20_verifyHighlightedCurrentPageNumber()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC20_verifyHighlightedCurrentPageNumber()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:10 AST" name="TC20_verifyHighlightedCurrentPageNumber" description="TC-20 | Verify highlighted current page number in pagination" finished-at="2025-08-25T07:42:12 AST" duration-ms="1776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_verifyHighlightedCurrentPageNumber -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:12 AST" name="tearDown" finished-at="2025-08-25T07:42:13 AST" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC20_verifyHighlightedCurrentPageNumber status=SUCCESS method=NGramsToolTC.TC20_verifyHighlightedCurrentPageNumber()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:13 AST" name="setUp" finished-at="2025-08-25T07:42:20 AST" duration-ms="7091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC21_verifyNGramsResultsPerPageDropdown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC21_verifyNGramsResultsPerPageDropdown()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:21 AST" name="TC21_verifyNGramsResultsPerPageDropdown" description="TC-21 | Verify changing results-per-page (10/50/100) in NGrams" finished-at="2025-08-25T07:42:25 AST" duration-ms="4041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21_verifyNGramsResultsPerPageDropdown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:25 AST" name="tearDown" finished-at="2025-08-25T07:42:26 AST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC21_verifyNGramsResultsPerPageDropdown status=SUCCESS method=NGramsToolTC.TC21_verifyNGramsResultsPerPageDropdown()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:26 AST" name="setUp" finished-at="2025-08-25T07:42:33 AST" duration-ms="6843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC22_verifyNGramsPaginationResetAfterChangingResultsPerPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC22_verifyNGramsPaginationResetAfterChangingResultsPerPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:33 AST" name="TC22_verifyNGramsPaginationResetAfterChangingResultsPerPage" description="TC-22 | Verify pagination resets after changing results-per-page in NGrams" finished-at="2025-08-25T07:42:55 AST" duration-ms="22529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22_verifyNGramsPaginationResetAfterChangingResultsPerPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:55 AST" name="tearDown" finished-at="2025-08-25T07:42:56 AST" duration-ms="1113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC22_verifyNGramsPaginationResetAfterChangingResultsPerPage status=SUCCESS method=NGramsToolTC.TC22_verifyNGramsPaginationResetAfterChangingResultsPerPage()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:42:56 AST" name="setUp" finished-at="2025-08-25T07:43:03 AST" duration-ms="6827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC23_verifyResultsTableDisplaysDataOnValidSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC23_verifyResultsTableDisplaysDataOnValidSearch()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:43:03 AST" name="TC23_verifyResultsTableDisplaysDataOnValidSearch" description="TC-23 | Verify results table displays data on a valid NGrams search" finished-at="2025-08-25T07:43:15 AST" duration-ms="11636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC23_verifyResultsTableDisplaysDataOnValidSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:43:15 AST" name="tearDown" finished-at="2025-08-25T07:43:16 AST" duration-ms="1086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC23_verifyResultsTableDisplaysDataOnValidSearch status=SUCCESS method=NGramsToolTC.TC23_verifyResultsTableDisplaysDataOnValidSearch()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:43:16 AST" name="setUp" finished-at="2025-08-25T07:43:22 AST" duration-ms="6225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC24_verifySortableColumnsFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC24_verifySortableColumnsFunctionality()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:43:22 AST" name="TC24_verifySortableColumnsFunctionality" description="TC-24 | Verify sortable columns functionality in NGrams results table" finished-at="2025-08-25T07:43:25 AST" duration-ms="2708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24_verifySortableColumnsFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:43:25 AST" name="tearDown" finished-at="2025-08-25T07:43:26 AST" duration-ms="1167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC24_verifySortableColumnsFunctionality status=SUCCESS method=NGramsToolTC.TC24_verifySortableColumnsFunctionality()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:43:26 AST" name="setUp" finished-at="2025-08-25T07:43:31 AST" duration-ms="5148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC25_verifyFilterPopupAppearsForEachColumn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC25_verifyFilterPopupAppearsForEachColumn()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:43:31 AST" name="TC25_verifyFilterPopupAppearsForEachColumn" description="TC-25 | Verify filter pop-up opens for each column when clicking the column&#039;s filter icon (NGrams)" finished-at="2025-08-25T07:43:53 AST" duration-ms="22244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC25_verifyFilterPopupAppearsForEachColumn -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:43:53 AST" name="tearDown" finished-at="2025-08-25T07:43:54 AST" duration-ms="1057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC25_verifyFilterPopupAppearsForEachColumn status=SUCCESS method=NGramsToolTC.TC25_verifyFilterPopupAppearsForEachColumn()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:43:54 AST" name="setUp" finished-at="2025-08-25T07:44:01 AST" duration-ms="6327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC26_verifyFilterMatchTypeOptions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC26_verifyFilterMatchTypeOptions()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:44:01 AST" name="TC26_verifyFilterMatchTypeOptions" description="TC-26 | Verify filter match-type options (يبدأ بـ / يحتوي على / لا يحتوي على / ينتهي بـ / يساوي / لا يساوي) in &#039;المتتابعة&#039; column" finished-at="2025-08-25T07:44:23 AST" duration-ms="22832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC26_verifyFilterMatchTypeOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:44:23 AST" name="tearDown" finished-at="2025-08-25T07:44:25 AST" duration-ms="1128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC26_verifyFilterMatchTypeOptions status=SUCCESS method=NGramsToolTC.TC26_verifyFilterMatchTypeOptions()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:44:25 AST" name="setUp" finished-at="2025-08-25T07:44:30 AST" duration-ms="5140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC27_verifyNumericFilterMatchTypeOptions_forFrequency()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC27_verifyNumericFilterMatchTypeOptions_forFrequency()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:44:30 AST" name="TC27_verifyNumericFilterMatchTypeOptions_forFrequency" description="TC-27 | Verify numeric filter match-type options for &#039;التكرار&#039; column in NGrams" finished-at="2025-08-25T07:44:53 AST" duration-ms="22848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC27_verifyNumericFilterMatchTypeOptions_forFrequency -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:44:53 AST" name="tearDown" finished-at="2025-08-25T07:44:54 AST" duration-ms="1074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC27_verifyNumericFilterMatchTypeOptions_forFrequency status=SUCCESS method=NGramsToolTC.TC27_verifyNumericFilterMatchTypeOptions_forFrequency()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:44:54 AST" name="setUp" finished-at="2025-08-25T07:44:59 AST" duration-ms="5159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC28_verifyFilterConditionAppliesCorrectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC28_verifyFilterConditionAppliesCorrectly()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:44:59 AST" name="TC28_verifyFilterConditionAppliesCorrectly" description="TC-28 | Verify applying a filter condition filters the NGrams results table" finished-at="2025-08-25T07:45:22 AST" duration-ms="22979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC28_verifyFilterConditionAppliesCorrectly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:45:22 AST" name="tearDown" finished-at="2025-08-25T07:45:23 AST" duration-ms="1121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC28_verifyFilterConditionAppliesCorrectly status=SUCCESS method=NGramsToolTC.TC28_verifyFilterConditionAppliesCorrectly()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:45:23 AST" name="setUp" finished-at="2025-08-25T07:45:30 AST" duration-ms="6844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC29_verifyAddingMultipleFilterConditionsInSameColumn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC29_verifyAddingMultipleFilterConditionsInSameColumn()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:45:30 AST" name="TC29_verifyAddingMultipleFilterConditionsInSameColumn" description="TC-29 | Verify that user can add multiple filter conditions for a single column (NGrams)" finished-at="2025-08-25T07:46:15 AST" duration-ms="44702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC29_verifyAddingMultipleFilterConditionsInSameColumn -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:46:15 AST" name="tearDown" finished-at="2025-08-25T07:46:16 AST" duration-ms="1138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC29_verifyAddingMultipleFilterConditionsInSameColumn status=SUCCESS method=NGramsToolTC.TC29_verifyAddingMultipleFilterConditionsInSameColumn()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:46:16 AST" name="setUp" finished-at="2025-08-25T07:46:23 AST" duration-ms="6992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.falak.qa.tests.NGramsToolTC.TC30_verifyChangingPageSizeWhileFilterActive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC30_verifyChangingPageSizeWhileFilterActive()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:46:23 AST" name="TC30_verifyChangingPageSizeWhileFilterActive" description="TC-30 | Verify changing page size (10/50/100) while a column filter is active (NGrams)" finished-at="2025-08-25T07:46:48 AST" duration-ms="25754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC30_verifyChangingPageSizeWhileFilterActive -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6]" started-at="2025-08-25T07:46:48 AST" name="tearDown" finished-at="2025-08-25T07:46:50 AST" duration-ms="1114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC30_verifyChangingPageSizeWhileFilterActive status=SUCCESS method=NGramsToolTC.TC30_verifyChangingPageSizeWhileFilterActive()[pri:0, instance:com.falak.qa.tests.NGramsToolTC@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.falak.qa.tests.NGramsToolTC -->
+    </test> <!-- MainTests -->
+  </suite> <!-- MySuite -->
+</testng-results>

@@ -1,0 +1,262 @@
+{
+    "dev": {
+      "baseUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/",
+        "description": "🔗 الصفحة الرئيسية"
+      },
+      "aboutUsUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/aboutus",
+        "description": "📄 صفحة عن فلك"
+      },
+      "corporaUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora",
+        "description": "📚 صفحة المدونات"
+      },
+      "voiceWallUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/voicewall/ar",
+        "description": "🎙️ صفحة الجدارية الصوتية"
+      },
+      "frequencyListsUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/frequency-lists",
+        "description": "📊 صفحة قوائم الشيوع"
+      },
+      "developersUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/developers",
+        "description": "👨‍💻 صفحة المطورين"
+      },
+      "contactUsUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/contact-us",
+        "description": "📞 صفحة اتصل بنا"
+      },
+      "addCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/request-adding-corpus",
+        "description": "➕ صفحة إضافة مدونة"
+      },
+      "trainingUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/training",
+        "description": "📝 صفحة التسجيل للقاء التعريفي"
+      },
+      "babeCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/babe4d42-221a-4fc1-8ce9-03bd3fa92dc1",
+        "description": "📖 مدونة المجمع للغة العربية المعاصرة"
+      },
+      "guidesCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/355943e7-8413-4b88-ba8d-78ef7c873f4d",
+        "description": "📘 مدونة أدلة الاستخدام"
+      },
+      "cultureCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/134ae566-063c-4551-9930-dbae7b83533e",
+        "description": "🎭 المدونة الثقافية"
+      },
+      "sportsCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/1959eefb-8bc8-4c68-9695-42812ae2d379",
+        "description": "🏅 المدونة الرياضية"
+      },
+      "poetryCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/4ffb2ae1-0c17-444b-8653-a063fd1f14d5",
+        "description": "📝 مدونة الشعر الشعبي"
+      },
+      "entertainmentCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/40ece28a-c948-41a9-83b7-05c81705e29d",
+        "description": "🎬 مدونة الترفيه"
+      },
+      "arabicCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/arabiccorpus",
+        "description": "🗣️ المدونة العربية"
+      },
+      "arabicBooksCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/90eccba1-2056-48f4-ab51-79b9768ee7b1",
+        "description": "📚 مدونة كتب العربية"
+      },
+      "learnersCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/b7265808-6dca-4375-be02-cd72f13c1e8e",
+        "description": "👩‍🏫 المدونة اللغوية لمتعلمي العربية"
+      },
+      "novelsCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/07661dc5-10bd-48a0-8796-757b2436307f",
+        "description": "📕 مدونة الروايات العامة"
+      },
+      "quranCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/e691881d-b532-40ab-9f47-d1308222990b",
+        "description": "📖 مدونة القرآن الكريم"
+      },
+      "camelsCorpusUrl": {
+        "url": "https://dev.falak.ksaa.gov.sa/corpora/9692af45-5565-4ea2-8d8f-a6c08e42734b",
+        "description": "🐪 مدونة الإبل"
+      }
+    }
+  ,
+  "staging": {
+    "baseUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/",
+      "description": "🔗 الصفحة الرئيسية"
+    },
+    "aboutUsUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/aboutus",
+      "description": "📄 صفحة عن فلك"
+    },
+    "corporaUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora",
+      "description": "📚 صفحة المدونات"
+    },
+    "voiceWallUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/voicewall/ar",
+      "description": "🎙️ صفحة الجدارية الصوتية"
+    },
+    "frequencyListsUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/frequency-lists",
+      "description": "📊 صفحة قوائم الشيوع"
+    },
+    "developersUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/developers",
+      "description": "👨‍💻 صفحة المطورين"
+    },
+    "contactUsUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/contact-us",
+      "description": "📞 صفحة اتصل بنا"
+    },
+    "addCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/request-adding-corpus",
+      "description": "➕ صفحة إضافة مدونة"
+    },
+    "trainingUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/training",
+      "description": "📝 صفحة التسجيل للقاء التعريفي"
+    },
+    "babeCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/babe4d42-221a-4fc1-8ce9-03bd3fa92dc1",
+      "description": "📖 مدونة المجمع للغة العربية المعاصرة"
+    },
+    "guidesCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/355943e7-8413-4b88-ba8d-78ef7c873f4d",
+      "description": "📘 مدونة أدلة الاستخدام"
+    },
+    "cultureCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/134ae566-063c-4551-9930-dbae7b83533e",
+      "description": "🎭 المدونة الثقافية"
+    },
+    "sportsCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/1959eefb-8bc8-4c68-9695-42812ae2d379",
+      "description": "🏅 المدونة الرياضية"
+    },
+    "poetryCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/4ffb2ae1-0c17-444b-8653-a063fd1f14d5",
+      "description": "📝 مدونة الشعر الشعبي"
+    },
+    "entertainmentCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/40ece28a-c948-41a9-83b7-05c81705e29d",
+      "description": "🎬 مدونة الترفيه"
+    },
+    "arabicCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/arabiccorpus",
+      "description": "🗣️ المدونة العربية"
+    },
+    "arabicBooksCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/90eccba1-2056-48f4-ab51-79b9768ee7b1",
+      "description": "📚 مدونة كتب العربية"
+    },
+    "learnersCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/b7265808-6dca-4375-be02-cd72f13c1e8e",
+      "description": "👩‍🏫 المدونة اللغوية لمتعلمي العربية"
+    },
+    "novelsCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/07661dc5-10bd-48a0-8796-757b2436307f",
+      "description": "📕 مدونة الروايات العامة"
+    },
+    "quranCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/e691881d-b532-40ab-9f47-d1308222990b",
+      "description": "📖 مدونة القرآن الكريم"
+    },
+    "camelsCorpusUrl": {
+      "url": "https://staging.falak.ksaa.gov.sa/corpora/9692af45-5565-4ea2-8d8f-a6c08e42734b",
+      "description": "🐪 مدونة الإبل"
+    }
+  }
+  ,
+  "prod": {
+    "baseUrl": {
+      "url": "https://falak.ksaa.gov.sa/",
+      "description": "🔗 الصفحة الرئيسية"
+    },
+    "aboutUsUrl": {
+      "url": "https://falak.ksaa.gov.sa/aboutus",
+      "description": "📄 صفحة عن فلك"
+    },
+    "corporaUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora",
+      "description": "📚 صفحة المدونات"
+    },
+    "voiceWallUrl": {
+      "url": "https://falak.ksaa.gov.sa/voicewall/ar",
+      "description": "🎙️ صفحة الجدارية الصوتية"
+    },
+    "frequencyListsUrl": {
+      "url": "https://falak.ksaa.gov.sa/frequency-lists",
+      "description": "📊 صفحة قوائم الشيوع"
+    },
+    "developersUrl": {
+      "url": "https://falak.ksaa.gov.sa/developers",
+      "description": "👨‍💻 صفحة المطورين"
+    },
+    "contactUsUrl": {
+      "url": "https://falak.ksaa.gov.sa/contact-us",
+      "description": "📞 صفحة اتصل بنا"
+    },
+    "addCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/request-adding-corpus",
+      "description": "➕ صفحة إضافة مدونة"
+    },
+    "trainingUrl": {
+      "url": "https://falak.ksaa.gov.sa/training",
+      "description": "📝 صفحة التسجيل للقاء التعريفي"
+    },
+    "babeCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/babe4d42-221a-4fc1-8ce9-03bd3fa92dc1",
+      "description": "📖 مدونة المجمع للغة العربية المعاصرة"
+    },
+    "guidesCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/355943e7-8413-4b88-ba8d-78ef7c873f4d",
+      "description": "📘 مدونة أدلة الاستخدام"
+    },
+    "cultureCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/134ae566-063c-4551-9930-dbae7b83533e",
+      "description": "🎭 المدونة الثقافية"
+    },
+    "sportsCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/1959eefb-8bc8-4c68-9695-42812ae2d379",
+      "description": "🏅 المدونة الرياضية"
+    },
+    "poetryCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/4ffb2ae1-0c17-444b-8653-a063fd1f14d5",
+      "description": "📝 مدونة الشعر الشعبي"
+    },
+    "entertainmentCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/40ece28a-c948-41a9-83b7-05c81705e29d",
+      "description": "🎬 مدونة الترفيه"
+    },
+    "arabicCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/arabiccorpus",
+      "description": "🗣️ المدونة العربية"
+    },
+    "arabicBooksCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/90eccba1-2056-48f4-ab51-79b9768ee7b1",
+      "description": "📚 مدونة كتب العربية"
+    },
+    "learnersCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/b7265808-6dca-4375-be02-cd72f13c1e8e",
+      "description": "👩‍🏫 المدونة اللغوية لمتعلمي العربية"
+    },
+    "novelsCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/07661dc5-10bd-48a0-8796-757b2436307f",
+      "description": "📕 مدونة الروايات العامة"
+    },
+    "quranCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/e691881d-b532-40ab-9f47-d1308222990b",
+      "description": "📖 مدونة القرآن الكريم"
+    },
+    "camelsCorpusUrl": {
+      "url": "https://falak.ksaa.gov.sa/corpora/9692af45-5565-4ea2-8d8f-a6c08e42734b",
+      "description": "🐪 مدونة الإبل"
+    }
+  }
+}

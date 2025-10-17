@@ -1,0 +1,547 @@
+<html>
+<head>
+<title>TestNG:  MainTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MainTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>84/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 25 06:52:09 AST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>3280 seconds (3280766 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC13_verifyExcludePunctuationFilter()'><b>TC13_verifyExcludePunctuationFilter</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-13 | Verify that exclude-punctuation filter works correctly in UI and API</td>
+<td><div><pre>java.lang.AssertionError: الخدمة أعادت خطأ شبكة: status=500 url=https://falak.ksaa.gov.sa/api/tools/ngram/babe4d42-221a-4fc1-8ce9-03bd3fa92dc1?n=2&amp;limit=1000&amp;pageNumber=0&amp;minFreq=2&amp;maxFreq=500000&amp;excludeWords=&amp;containWords=&amp;startWithWords=&amp;endWithWords=%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9&amp;excludeRegex=true type=2212.434
+	at com.falak.qa.tests.NGramsToolTC.TC13_verifyExcludePunctuationFilter(NGramsToolTC.java:1391)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1094230831", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1094230831'><pre>java.lang.AssertionError: الخدمة أعادت خطأ شبكة: status=500 url=https://falak.ksaa.gov.sa/api/tools/ngram/babe4d42-221a-4fc1-8ce9-03bd3fa92dc1?n=2&amp;limit=1000&amp;pageNumber=0&amp;minFreq=2&amp;maxFreq=500000&amp;excludeWords=&amp;containWords=&amp;startWithWords=&amp;endWithWords=%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9&amp;excludeRegex=true type=2212.434
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.falak.qa.tests.NGramsToolTC.TC13_verifyExcludePunctuationFilter(NGramsToolTC.java:1391)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>38</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC05_testFrequencyListsButtonRedirect()'><b>TC05_testFrequencyListsButtonRedirect</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-05 | Verify 'قوائم الشيوع' button redirects correctly</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC21_verifyNGramsResultsPerPageDropdown()'><b>TC21_verifyNGramsResultsPerPageDropdown</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-21 | Verify changing results-per-page (10/50/100) in NGrams</td>
+<td></td>
+<td>4</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC12_verifyExportWithApiParity()'><b>TC12_verifyExportWithApiParity</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-12 | Export downloads file and UI results match API results for the same search</td>
+<td></td>
+<td>82</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC27_verifyNumericFilterMatchTypeOptions_forFrequency()'><b>TC27_verifyNumericFilterMatchTypeOptions_forFrequency</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-27 | Verify numeric filter match-type options for 'التكرار' column in NGrams</td>
+<td></td>
+<td>22</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC07_testContactUsButtonRedirect()'><b>TC07_testContactUsButtonRedirect</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-07 | Verify 'اتصل بنا' button redirects correctly</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC06_verifyVirtualKeyboardTyping()'><b>TC06_verifyVirtualKeyboardTyping</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-06 | Verify that the virtual keyboard types letters, numbers, and symbols into the search box</td>
+<td></td>
+<td>2</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC20_verifyHighlightedCurrentPageNumber()'><b>TC20_verifyHighlightedCurrentPageNumber</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-20 | Verify highlighted current page number in pagination</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC03_verifyInfoPopupInNGramsTool()'><b>TC03_verifyInfoPopupInNGramsTool</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-03 | Verify that clicking the info (!) icon shows the tool's description popup</td>
+<td></td>
+<td>2</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC19_verifyCorporaOfMonthSection()'><b>TC19_verifyCorporaOfMonthSection</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-19 | Verify that the 'مدونة الشهر' section is displayed correctly on the home page with one مدونة card.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC03_verifyInfoPopupInConcordancerTool()'><b>TC03_verifyInfoPopupInConcordancerTool</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-03 | Verify that clicking the info (!) icon shows the tool's description popup</td>
+<td></td>
+<td>3</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC05_verifySearchFunctionalityWithValidInput()'><b>TC05_verifySearchFunctionalityWithValidInput</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-05 | Verify that entering a valid word in the search box shows correct filtered results</td>
+<td></td>
+<td>30</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC18_verifyNavigationToSpecificPage()'><b>TC18_verifyNavigationToSpecificPage</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-18 | Verify navigating to specific page number using pagination</td>
+<td></td>
+<td>34</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC25_verifyFilterPopupAppearsForEachColumn()'><b>TC25_verifyFilterPopupAppearsForEachColumn</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-25 | Verify filter pop-up opens for each column when clicking the column's filter icon (NGrams)</td>
+<td></td>
+<td>22</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC17_verifyNavigationToNextPage()'><b>TC17_verifyNavigationToNextPage</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-17 | Verify navigating to next page using pagination</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC02_testAboutFalakButtonRedirect()'><b>TC02_testAboutFalakButtonRedirect</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-02 | Verify 'عن فلك' button redirects correctly</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC27_verifyModalVerticalScroll_AllCards()'><b>TC27_verifyModalVerticalScroll_AllCards</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-27 | Verify that the popup allows vertical scrolling if the content exceeds visible area.</td>
+<td></td>
+<td>271</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC10_verifyStartsWithFilter()'><b>TC10_verifyStartsWithFilter</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-10 | Verify that 'Starts With' filter works correctly</td>
+<td></td>
+<td>67</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC11_verifyEndsWithFilter()'><b>TC11_verifyEndsWithFilter</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-11 | Verify that 'Ends With' filter works correctly</td>
+<td></td>
+<td>86</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC14_verifyEachCorporaCard_HasCompleteData()'><b>TC14_verifyEachCorporaCard_HasCompleteData</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-14 | Verify that each مدونة card displays the correct elements (Title, Description, عدد نصوص, عدد كلمات, عدد كلمات بدون تكرار, اختر المدونة ).</td>
+<td></td>
+<td>2</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC20_verifyResultsPerPageDropdown()'><b>TC20_verifyResultsPerPageDropdown</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-20 | Verify changing number of displayed results updates table rows</td>
+<td></td>
+<td>36</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC11_testaddCorporaCard()'><b>TC11_testaddCorporaCard</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-11 | Verify that clicking the 'أضف مدونتك' button redirects the user to the page for adding a new مدونة.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC12_verifyContainerFilterAffectsResults()'><b>TC12_verifyContainerFilterAffectsResults</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-12 | Verify that using the Container Filter affects the search results</td>
+<td></td>
+<td>40</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC01_openNGramsToolFromHomePage()'><b>TC01_openNGramsToolFromHomePage</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-01 | Verify that user can open the ‘التتابعات اللَّفظيَّة’ tool for مجمع اللغة العربية from the home page</td>
+<td></td>
+<td>4</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC18_verifyNavigationToPreviousPage()'><b>TC18_verifyNavigationToPreviousPage</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-18 | Verify navigating to previous page using pagination</td>
+<td></td>
+<td>2</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC26_verifyFilterMatchTypeOptions()'><b>TC26_verifyFilterMatchTypeOptions</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-26 | Verify filter match-type options (يبدأ بـ / يحتوي على / لا يحتوي على / ينتهي بـ / يساوي / لا يساوي) in 'المتتابعة' column</td>
+<td></td>
+<td>22</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC08_verifyDomainFilterAffectsResults()'><b>TC08_verifyDomainFilterAffectsResults</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-08 | Verify that using the Domain Filter affects the search results</td>
+<td></td>
+<td>36</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC09_verifyTopicFilterAffectsResults()'><b>TC09_verifyTopicFilterAffectsResults</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-09 | Verify that using the Topic Filter affects the search results</td>
+<td></td>
+<td>38</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC09_testToolsCard()'><b>TC09_testToolsCard</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-09 | Verify that clicking the 'الأدوات' button scrolls the page to the 'الأدوات' section on the current page.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC06_verifyMinFreqIncrementDecrementViaJS()'><b>TC06_verifyMinFreqIncrementDecrementViaJS</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-06 | Verify that the min frequency field increases and decreases correctly using JS</td>
+<td></td>
+<td>22</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC14_verifyDetailsPopupFunctionality()'><b>TC14_verifyDetailsPopupFunctionality</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-14 | Verify details popup functionality in Concordancer results</td>
+<td></td>
+<td>44</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC14_verifyNGramsExportDownload()'><b>TC14_verifyNGramsExportDownload</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-14 | Verify that clicking the export button downloads the search results (NGrams)</td>
+<td></td>
+<td>34</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC08_testCorporaCard()'><b>TC08_testCorporaCard</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-08 | Verify that clicking the 'المدونات' button in the main content redirects the user to the 'المدونات' page of the website.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC22_verifyToolsSection()'><b>TC22_verifyToolsSection</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-22 | Verify that the 'ادوات المنصة' section is displayed correctly on the home page with section title, description, and 13 cards.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC24_verifyHoverEffectOnAllDetailsButtons()'><b>TC24_verifyHoverEffectOnAllDetailsButtons</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-24 | Verify that hovering over 'التفاصيل' button changes its color to dark blue. </td>
+<td></td>
+<td>5</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC03_testCorporaButtonRedirect()'><b>TC03_testCorporaButtonRedirect</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-03 | Verify 'المدونات' button redirects correctly</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC10_testFeatureCard()'><b>TC10_testFeatureCard</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-10 | Verify that clicking the 'المزايا' button scrolls the page to the 'المزايا' section on the current page.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC23_verifyEachToolCardElements()'><b>TC23_verifyEachToolCardElements</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-23 | Verify that each 'اداة' card displays the correct elements: icon image, title (Arabic + English), 'التفاصيل' button.</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC25_verifyToolDetailsModal_AllCards()'><b>TC25_verifyToolDetailsModal_AllCards</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-25 | Verify that clicking the 'التفاصيل' button opens a popup screen (modal window) with correct content.</td>
+<td></td>
+<td>275</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC28_verifyModalCloseButton_AllCards()'><b>TC28_verifyModalCloseButton_AllCards</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-28 | Verify that clicking the close button closes the popup screen.</td>
+<td></td>
+<td>401</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC29_verifyFeaturesSectionVisibility()'><b>TC29_verifyFeaturesSectionVisibility</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-29 | Verify that the 'مزايا المنصة' section is displayed correctly on the home page.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC15_verifyNGramsPaginationControlsVisible()'><b>TC15_verifyNGramsPaginationControlsVisible</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-15 | Verify that pagination controls are visible under the results table in NGrams</td>
+<td></td>
+<td>2</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC31_verifyHoverEffectOnEachFeatureCard()'><b>TC31_verifyHoverEffectOnEachFeatureCard</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-31 | Verify that a hover effect (shaded visual effect) is applied when the mouse pointer hovers over any 'ميزة' card.</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC28_verifyFilterConditionAppliesCorrectly()'><b>TC28_verifyFilterConditionAppliesCorrectly</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-28 | Verify applying a filter condition filters the NGrams results table</td>
+<td></td>
+<td>22</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC15_verifyHoverEffectOnAllCorporaCards()'><b>TC15_verifyHoverEffectOnAllCorporaCards</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-15 | Verify that a hover effect (corner shading) is applied when the mouse pointer hovers over any مدونة card.</td>
+<td></td>
+<td>2</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC10_verifyPlaceFilterAffectsResults()'><b>TC10_verifyPlaceFilterAffectsResults</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-10 | Verify that using the Place Filter affects the search results</td>
+<td></td>
+<td>38</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC17_verifyPaginationControlsAreVisible()'><b>TC17_verifyPaginationControlsAreVisible</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-17 | Verify that pagination bar appears when results span multiple pages</td>
+<td></td>
+<td>34</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC19_verifyNavigationToSpecificPage()'><b>TC19_verifyNavigationToSpecificPage</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-19 | Verify navigating to a specific page using pagination</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC33_verifyFalakStatsImageIsDisplayedCorrectly()'><b>TC33_verifyFalakStatsImageIsDisplayedCorrectly</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-33 | Verify that the static image in the 'فلك في ارقام' section is displayed correctly without distortion or broken image.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC21_verifyHoverEffectOnBlogOfMonthCard()'><b>TC21_verifyHoverEffectOnBlogOfMonthCard</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-21 | Verify that a hover effect (corner shading) is applied when the mouse pointer hovers over the 'مدونة الشهر' card.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC32_verifyFalakInNumbersSectionVisibility()'><b>TC32_verifyFalakInNumbersSectionVisibility</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-32 | Verify that the 'فلك في ارقام' section is displayed correctly on the home page.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC07_verifyExportButtonFunctionality()'><b>TC07_verifyExportButtonFunctionality</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-07 | Verify that clicking the export button downloads the search results</td>
+<td></td>
+<td>37</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC04_verifyInfoPopupCanBeClosed()'><b>TC04_verifyInfoPopupCanBeClosed</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-04 | Verify that the info popup can be closed by clicking the (X) button</td>
+<td></td>
+<td>12</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC16_verifySelectButtonsRedirect_AllCards()'><b>TC16_verifySelectButtonsRedirect_AllCards</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-16-Loop | Verify that clicking the 'اختر المدونة' button on a مدونة card redirects the user to the corresponding مدونة details page.</td>
+<td></td>
+<td>7</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC18_testMoreCorporaButton()'><b>TC18_testMoreCorporaButton</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-18 | Verify that clicking the 'المزيد button redirects the user to the full 'المدونات' page.</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC22_verifyNGramsPaginationResetAfterChangingResultsPerPage()'><b>TC22_verifyNGramsPaginationResetAfterChangingResultsPerPage</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-22 | Verify pagination resets after changing results-per-page in NGrams</td>
+<td></td>
+<td>22</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC16_verifySortableColumnsFunctionality()'><b>TC16_verifySortableColumnsFunctionality</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-16 | Verify sorting functionality of sortable columns using last-word logic</td>
+<td></td>
+<td>87</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC02_verifyToolTitleIsDisplayedCorrectly()'><b>TC02_verifyToolTitleIsDisplayedCorrectly</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-02 | Verify that the correct tool title is displayed</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC30_verifyFeatureCardsVisualsAndTitles()'><b>TC30_verifyFeatureCardsVisualsAndTitles</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-30 | Verify that each 'ميزة' card displays the correct elements: animation, title text. </td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC12_testRegistrationSection()'><b>TC12_testRegistrationSection</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-12 | Verify that clicking the 'استخدم منصة فلك والتسجيل' section redirects the user to the 'لقاء تعريفي بمنصَّة فلك' registration page where the user can submit a registration request.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC17_verifyMoreLinksRedirect_AllCards()'><b>TC17_verifyMoreLinksRedirect_AllCards</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-17-Loop | Verify that clicking the 'المزيد' button redirects the user to the full 'المدونات' page.</td>
+<td></td>
+<td>6</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC04_verifyInfoPopupCanBeClosed()'><b>TC04_verifyInfoPopupCanBeClosed</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-04 | Verify that the info popup can be closed by clicking the (X) button</td>
+<td></td>
+<td>12</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC16_verifyNGramsDefaultResultsPerPage()'><b>TC16_verifyNGramsDefaultResultsPerPage</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-16 | Verify that the default number of rows per page is correct in NGrams results table</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC34_verifyScrollToTopButtonFunctionality()'><b>TC34_verifyScrollToTopButtonFunctionality</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-34 | Verify that clicking the 'Top of Page' button scrolls the page up to the top of the home page.</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC26_verifyVideoAutoPlayInEachToolModal()'><b>TC26_verifyVideoAutoPlayInEachToolModal</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-26 | Verify that the video inside the popup starts playing automatically.</td>
+<td></td>
+<td>285</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC06_testDevelopersButtonRedirect()'><b>TC06_testDevelopersButtonRedirect</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-06 | Verify 'المطورون' button redirects correctly</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC09_verifyContainsFilter()'><b>TC09_verifyContainsFilter</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-09 | Verify that 'Contains' filter works correctly</td>
+<td></td>
+<td>53</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC13_verifyCopyFunctionalityInResults()'><b>TC13_verifyCopyFunctionalityInResults</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-13 | Verify copy functionality in Concordancer results</td>
+<td></td>
+<td>35</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC19_verifyHighlightedCurrentPageNumber()'><b>TC19_verifyHighlightedCurrentPageNumber</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-19 | Verify that the current page number is highlighted after navigation</td>
+<td></td>
+<td>34</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC01_openConcordancerToolFromHomePage()'><b>TC01_openConcordancerToolFromHomePage</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-01 | Verify that user can open the ‘الكشاف السياقي’ tool for مجمع اللغة العربية from the home page</td>
+<td></td>
+<td>3</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC11_verifyTimeFilterAffectsResults()'><b>TC11_verifyTimeFilterAffectsResults</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-11 | Verify that using the Time Period Filter affects the search results</td>
+<td></td>
+<td>40</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC21_verifyPaginationResetAfterChangingResultsPerPage()'><b>TC21_verifyPaginationResetAfterChangingResultsPerPage</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-21 | Verify that changing results per page resets pagination to first page</td>
+<td></td>
+<td>35</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC24_verifySortableColumnsFunctionality()'><b>TC24_verifySortableColumnsFunctionality</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-24 | Verify sortable columns functionality in NGrams results table</td>
+<td></td>
+<td>2</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC08_verifyDoesNotContainFilter()'><b>TC08_verifyDoesNotContainFilter</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-08 | Verify that 'Does Not Contain' filter works correctly</td>
+<td></td>
+<td>23</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC07_verifyMaxFreqIncrementDecrementViaJS()'><b>TC07_verifyMaxFreqIncrementDecrementViaJS</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-07 | Verify that the max frequency field increases and decreases correctly using JS</td>
+<td></td>
+<td>22</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC04_testVoicewallButtonRedirect()'><b>TC04_testVoicewallButtonRedirect</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-04 | Verify 'الجدارية الصوتية' button redirects correctly</td>
+<td></td>
+<td>3</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC05_verifyFilteredResultsMatchSelectedWordCount()'><b>TC05_verifyFilteredResultsMatchSelectedWordCount</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-05 | Verify that results contain sentences matching the selected word count filter (1, 2, or 3)</td>
+<td></td>
+<td>23</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC13_testNumberOfCorporaContentCard()'><b>TC13_testNumberOfCorporaContentCard</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-13 | Verify that the 'المدونات' section is displayed correctly on the home page with 1 card at least</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC30_verifyChangingPageSizeWhileFilterActive()'><b>TC30_verifyChangingPageSizeWhileFilterActive</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-30 | Verify changing page size (10/50/100) while a column filter is active (NGrams)</td>
+<td></td>
+<td>25</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC01_testHomeButtonRedirect()'><b>TC01_testHomeButtonRedirect</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-01 | Verify 'الرئيسية' button redirects correctly</td>
+<td></td>
+<td>0</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC29_verifyAddingMultipleFilterConditionsInSameColumn()'><b>TC29_verifyAddingMultipleFilterConditionsInSameColumn</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-29 | Verify that user can add multiple filter conditions for a single column (NGrams)</td>
+<td></td>
+<td>44</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC02_verifyConcordancerToolTitleFromDirectURL()'><b>TC02_verifyConcordancerToolTitleFromDirectURL</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-02 | Verify that the correct title 'الكشاف السياقي' is displayed when opening the tool directly</td>
+<td></td>
+<td>2</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.ConcordancerToolTC.TC15_verifyResultsTableHasData()'><b>TC15_verifyResultsTableHasData</b><br>Test class: com.falak.qa.tests.ConcordancerToolTC<br>Test method: TC-15 | Verify results table is displayed with data after valid search</td>
+<td></td>
+<td>34</td>
+<td>com.falak.qa.tests.ConcordancerToolTC@6a57ae10</td></tr>
+<tr>
+<td title='com.falak.qa.tests.NGramsToolTC.TC23_verifyResultsTableDisplaysDataOnValidSearch()'><b>TC23_verifyResultsTableDisplaysDataOnValidSearch</b><br>Test class: com.falak.qa.tests.NGramsToolTC<br>Test method: TC-23 | Verify results table displays data on a valid NGrams search</td>
+<td></td>
+<td>11</td>
+<td>com.falak.qa.tests.NGramsToolTC@766653e6</td></tr>
+<tr>
+<td title='com.falak.qa.tests.HomePageTC.TC20_verifyCorporaOfMonthCard_HasCompleteData()'><b>TC20_verifyCorporaOfMonthCard_HasCompleteData</b><br>Test class: com.falak.qa.tests.HomePageTC<br>Test method: TC-20 | Verify that the 'مدونة الشهر' card displays the correct elements (Title, Description, عدد نصوص, عدد كلمات, عدد كلمات بدون تكرار, عرض button).</td>
+<td></td>
+<td>1</td>
+<td>com.falak.qa.tests.HomePageTC@51c693d</td></tr>
+</table><p>
+</body>
+</html>

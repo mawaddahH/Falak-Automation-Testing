@@ -1,0 +1,1 @@
+❌ فشل الانتظار لظهور العنصر (انتهت المهلة): By.xpath: //div[contains(@class,'tool-results')]//table[@role='table' and contains(@class,'p-datatable-table')]
